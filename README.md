@@ -1,1 +1,1 @@
-# kyrsovay
+# kursovay
