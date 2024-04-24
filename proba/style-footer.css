@@ -1,0 +1,59 @@
+/* footer */
+footer{
+    background-color: #CCE9F3;
+    width: 100%;
+    height: 226px;
+    display: flex ;
+    align-items: center;
+}
+.connection{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-around;
+}
+.bloc-connection{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Jura", sans-serif;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+
+}
+.text-adress{
+    font-family: "Jura", sans-serif;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    width: 200px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-around;
+}
+.info ul{
+    list-style-type: none;
+
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-around;
+}
+.img-footer{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.img-footer img{
+    width: 30px;
+    height: 30px;
+}
+.img-footer img:hover{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: 1s;
+}
