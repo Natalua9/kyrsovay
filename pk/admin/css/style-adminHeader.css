@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* шапка */
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar-brand-van{
+    color: aliceblue;
+}
+.header-name{
+    display: flex;
+    align-items: baseline;
+    width: 60%;
+    justify-content: space-between;
+}
+nav{
+    background-image: url("/images/fon1.png");
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+   
+}  
+.logo-name{
+    font-family: "Jura", sans-serif;
+    font-size: 60px;
+    color: aliceblue;
+}
+.header-name a{
+    font-family: "Jura", sans-serif;
+    font-size: 25px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.header-name a:hover{
+    font-family: "Jura", sans-serif;
+    font-size: 26px;
+    color: #a5d4e4;
+    text-decoration: none;
+    cursor: pointer;
+}
+.exit{
+    display: flex;
+    align-items: center;
+    gap: 15%;
+}
+.exit a{
+    font-family: "Jura", sans-serif;
+    font-size: 25px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.exit a:hover{
+    font-family: "Jura", sans-serif;
+    font-size: 26px;
+    color: #a5d4e4;
+    text-decoration: none;
+    cursor: pointer;
+}
